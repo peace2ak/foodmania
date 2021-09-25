@@ -1,0 +1,75 @@
+/* @media screen and (max-width:800px) {
+    #navbar {
+        background-color: springgreen;
+    }
+} */
+
+
+/* Navigation */
+
+#navbar .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid blue; */
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* #navbar {
+    background-color: springgreen;
+} */
+
+
+/* Home */
+
+#home-section .home {
+    padding: 19px 9px;
+    border: 2px solid teal;
+    width: 100%;
+    width: 300px;
+    /* margin: 2px auto; */
+}
+
+#home-section .home h1 {
+    font: .2rem;
+    /* color: teal; */
+}
+
+#home-section .home p {
+    color: rgb(52, 53, 53);
+    font-size: 1rem;
+    padding: 18px 0px;
+    margin: 2px 2px;
+    text-align: center;
+}
+
+#home-section .home button {
+    font-size: 1rem;
+    padding: 8px 19px;
+}
+
+
+/* Contact  */
+
+#contact-section .form-container form {
+    width: 300px;
+}
+
+
+/* Utility Classes */
+
+.h-primary {
+    padding: 15px 4px;
+    color: rgb(52, 53, 53);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.btn {
+    border: 2px solid;
+}
